@@ -29,7 +29,23 @@ body{
     width: 200px;
     height: 200px;
     border: 5px solid red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+}
+.qutu {
+    width: 50px;
+    height: 50px;
+
+
+}
+.qutu1 {
+    background-color: blue;
+}
+.qutu2 {
+    background-color: yellow;
+    position: absolute;
+    right:20px;
+    top: 20px;
+}
+.qutu3 {
+    background-color: pink;
 }
