@@ -8,35 +8,34 @@ body{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
 }
 .bir {
     width: 90%;
-    height: 20%;
+    min-height: 200px;
     border: 5px solid black;
 }
 .iki {
     width: 90%;
-    height: 20%;
+    min-height: 200px;
     border: 5px solid black;
 }
 .uc {
     width: 90%;
-    height: 20%;
+    min-height: 200px;
     border: 5px solid black;
 }
 .dord {
     width: 90%;
-    height: 20%;
+    min-height: 200px;
     border: 5px solid black;
 }
 .bes {
     width: 90%;
-    height: 20%;
+    min-height: 200px;
     border: 5px solid black;
 }
 .alti  {
     width: 90%;
-    height: 20%;
+    min-height: 200px;
     border: 5px solid black;
 }
