@@ -7,6 +7,7 @@ body {
     background-image: url(https://wall-mural-shop.com/cdn/shop/files/f972892546872539e5137d3354a9f31f_f09f0160-b6d3-4da8-872d-d7f25e12b90e.png?v=1746914421&width=1500);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 header {
     width: 100%;
