@@ -31,3 +31,15 @@ a{
     text-decoration: none;
     font-size: 20px;
 }
+.up {
+    background-color: palevioletred;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
