@@ -3,9 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-image: url(https://wall-mural-shop.com/cdn/shop/files/f972892546872539e5137d3354a9f31f_f09f0160-b6d3-4da8-872d-d7f25e12b90e.png?v=1746914421&width=1500);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 header {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: gray;
     position: sticky;
     top: 0;
@@ -24,14 +29,4 @@ a{
     color: white;
     text-decoration: none;
     font-size: 20px;
-}
-.bir{
-    /* margin-top: 105px; */
-}
-.qutu {
-    width: 100%;
-    height: 200px;
-    background-color: red;
-    position: sticky;
-    top: 0px;
 }
