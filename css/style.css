@@ -46,3 +46,22 @@ a{
     right: 20px;
     bottom: 20px;
 }
+.social {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    background-color: burlywood;
+    height: 150px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    transform: translate(0 -50%);
+}
+.social ul {
+    display: flex;
+    flex-direction: column;
+}
+.social ul li {
+    margin: 10px 5px;
+
+}
