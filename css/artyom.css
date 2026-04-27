@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bir .iki .uc {
+    width: 30%;
+    height: 50px;
+}
+.bir {
+    background-color: blue;
+}
+.iki {
+    background-color: red;
+}
+.uc {
+    background-color: green;
+}
