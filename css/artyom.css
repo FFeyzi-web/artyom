@@ -15,12 +15,18 @@ body {
     align-items: center;
     height: 100vh;
 }
+
 p {
     width: 600px;
     height: 200px;
-    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: rgba(0, 0, 0, 0.7); */
     padding: 20px;
     font-size: 18ox;
     line-height: 1.5;
     color: white;
+    background: rgb(0 0 0 / 40%); /* Белый фон с полупрозрачностью */
+    -webkit-backdrop-filter: blur(4px);
+    /* Для старых браузеров */
+    backdrop-filter: blur(4px);
+    /* Размываем фон */
 }
