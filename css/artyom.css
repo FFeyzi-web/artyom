@@ -3,23 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-  display: flex;
-  height: 100vh;
-}
-.qutular {
-    height: 100px;
-}
 
-.bir {
-    background-color: blue;
-    flex: 1 0 200px;
+body {
+    background-image: url(https://wall-mural-shop.com/cdn/shop/files/f972892546872539e5137d3354a9f31f_f09f0160-b6d3-4da8-872d-d7f25e12b90e.png?v=1746914421&width=1500);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-.iki {
-    background-color: red;
-    flex: 1 0 200px;
-}
-.uc {
-    background-color: green;
-    flex: 1 0 200px;
+p {
+    width: 600px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    font-size: 18ox;
+    line-height: 1.5;
+    color: white;
 }
