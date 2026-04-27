@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     background-image: url(https://wall-mural-shop.com/cdn/shop/files/f972892546872539e5137d3354a9f31f_f09f0160-b6d3-4da8-872d-d7f25e12b90e.png?v=1746914421&width=1500);
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,19 +14,21 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
+} */
+.main{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    left: 0;
 
-p {
-    width: 600px;
-    height: 200px;
-    /* background-color: rgba(0, 0, 0, 0.7); */
-    padding: 20px;
-    font-size: 18ox;
-    line-height: 1.5;
-    color: white;
-    background: rgb(0 0 0 / 40%); /* Белый фон с полупрозрачностью */
-    -webkit-backdrop-filter: blur(4px);
-    /* Для старых браузеров */
-    backdrop-filter: blur(4px);
-    /* Размываем фон */
+    animation-name: hereketEt;
+}
+@keyframes hereketEt {
+    from[
+
+    ]
+    to {
+        
+    }
 }
