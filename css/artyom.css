@@ -23,12 +23,28 @@
     left: 0;
 
     animation-name: hereketEt;
+
+    animation-delay: 1s;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+    animation-timing-function: ease-in;
+}
+.main:hover{
+    animation-play-state: paused;
 }
 @keyframes hereketEt {
-    from[
-
-    ]
-    to {
-        
+    0%{
+        left: 0;
+        background-color: red;
+    }
+    50% {
+       
+        background-color: blue;
+    }
+    100%{
+        left: 800px;
+        background-color: green;
     }
 }
