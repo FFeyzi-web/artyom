@@ -5,21 +5,23 @@
 }
 body {
   display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
   height: 100vh;
 }
-.bir,.iki,.uc {
-    
-    height: 50px;
-}
+
 .bir {
     background-color: blue;
     flex-grow: 1;
+    flex-basis: 1px;
 }
 .iki {
     background-color: red;
-    flex-grow: 1;
+    flex-grow: 2;
+    flex-basis: 1px;
 }
 .uc {
     background-color: green;
-    flex-grow: 1;
+    flex-grow: 3;
+    flex-basis: 1px;
 }
