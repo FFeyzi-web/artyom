@@ -3,11 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 p::after {
-    content: 'ArtyomAfter';
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: red;
 }
+
 p::before {
-    content: 'ArtyomBefore';
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
 }
 
 /* body {
@@ -38,7 +48,7 @@ p::before {
     animation-timing-function: ease-in; */
 
 
-    /* transition-property: all;
+/* transition-property: all;
     transition-duration: 5s;
     transition-delay: 2s;
     transition-timing-function: ease-in-out;
