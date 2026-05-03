@@ -6,7 +6,6 @@
 
 header {
     background-color: gray;
-    color: white;
     padding: 20px;
     width: 100%;
     text-align: center;
@@ -28,8 +27,15 @@ ul li {
 
 a {
     color: white;
+    text-decoration: none;
 }
-
+li:hover::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    display: block;
+    background-color: green;
+}
 /* p::after {
     content: '';
     display: inline-block;
