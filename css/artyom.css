@@ -1,10 +1,29 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header {
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*  */
+p {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    box-shadow: 2px 2px 5px 5px gray;
+
+}
+
+/* p { 
+    text-shadow: 2px 2px 2px 5px;
+} */
+
+/* header {
     background-color: gray;
     padding: 20px;
     width: 100%;
@@ -15,7 +34,6 @@ header {
 ul {
     list-style-type: none;
     display: flex;
-    background-color: red;
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -23,19 +41,25 @@ ul {
 
 ul li {
     margin: 0 25px;
+    position: relative;
+    transition: all 0.3s ease ;
 }
 
 a {
     color: white;
     text-decoration: none;
 }
+
 li:hover::after {
     content: '';
     height: 2px;
     width: 100%;
-    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
     background-color: green;
-}
+} */
+
 /* p::after {
     content: '';
     display: inline-block;
