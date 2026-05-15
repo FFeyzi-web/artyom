@@ -17,3 +17,4 @@ function ferqEtmez() {
  console.log('artyom derslere hazirliqsiz gelir');
 }
 
+console.log(window);
