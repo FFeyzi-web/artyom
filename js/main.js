@@ -13,14 +13,13 @@
 
 // console.log(   a.Yash  );
 
-function ferqEtmez( i=8, o='Artyom', qutu=['alma', 'armud'] , qutu2={ad: 'Artyom'}) {
+function ferqEtmez(i, o , qutu , qutu2 ) {
 
-    console.log( typeof (i)     );
-    console.log( typeof (o)     );
-    console.log( typeof (qutu)  );
-    console.log( typeof (qutu2) );
-    
+    let i = i
+    let o = o
+    let qutu = qutu
+    let qutu2 = qutu2
 
 }
 
-ferqEtmez()
+ferqEtmez(9, 'Vasif', ['Baki', 'Oguz', 'Zaqatala'], { ad: 'Etibar' })
