@@ -13,8 +13,14 @@
 
 // console.log(   a.Yash  );
 
-function ferqEtmez() {
- console.log('artyom derslere hazirliqsiz gelir');
+function ferqEtmez( i=8, o='Artyom', qutu=['alma', 'armud'] , qutu2={ad: 'Artyom'}) {
+
+    console.log( typeof (i)     );
+    console.log( typeof (o)     );
+    console.log( typeof (qutu)  );
+    console.log( typeof (qutu2) );
+    
+
 }
 
-console.log(window);
+ferqEtmez()
