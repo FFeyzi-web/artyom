@@ -13,13 +13,23 @@
 
 // console.log(   a.Yash  );
 
-function ferqEtmez(i, o , qutu , qutu2 ) {
+function ferqEtmez() {
+   
+    
+    let eded1 = document.getElementById ('eded1').value;
+    let eded2 = document.getElementById ('eded2').value;
 
-    let i = i
-    let o = o
-    let qutu = qutu
-    let qutu2 = qutu2
+    let cem = eded1 + eded2;
 
+    console.log( cem );
+    
 }
 
-ferqEtmez(9, 'Vasif', ['Baki', 'Oguz', 'Zaqatala'], { ad: 'Etibar' })
+
+// let duymeniBas = document.getElementById('deyerHesabla');
+
+// console.log(    duymeniBas.onclick('ferqEtmez')  );
+
+
+
+
