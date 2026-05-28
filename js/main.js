@@ -13,24 +13,24 @@
 
 // console.log(   a.Yash  );
 
-function ferqEtmez() {
+// function ferqEtmez() {
    
     
-    let eded1 = Number (document.getElementById ('eded1').value);
-    let eded2 = Number (document.getElementById ('eded2').value);
+//     let eded1 = Number (document.getElementById ('eded1').value);
+//     let eded2 = Number (document.getElementById ('eded2').value);
 
-    let cem = eded1 + eded2;
+//     let cem = eded1 + eded2;
 
-    document.getElementById('ekranaYazdir').innerText = cem;
+//     document.getElementById('ekranaYazdir').innerText = cem;
 
     
-}
+// }
 
- let duymeniBas = document.getElementById('deyerHesabla');
+//  let duymeniBas = document.getElementById('deyerHesabla');
 
-duymeniBas.onclick = ferqEtmez
+// duymeniBas.onclick = ferqEtmez
 
-
+let a = document.querySelectorAll('ekranayazdir') [3]
 
 
 
