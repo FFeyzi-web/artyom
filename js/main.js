@@ -30,7 +30,18 @@
 
 // duymeniBas.onclick = ferqEtmez
 
-let a = document.querySelectorAll('ekranayazdir') [3]
+let a = document.querySelectorAll('[title="aaab"]') [0]
+
+
+console.log(     a     );
 
 
 
+
+
+// JSON - JAVASCRIPT Object NOTATION - BUNUN tipi STRING sayilir 
+let a = "{" +
+    "'ad' : 'artyom'," +
+   " 'soyad' : 'Feyzullayev',"
+   " Yash : 20,"
+"}"
